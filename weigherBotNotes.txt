@@ -1,0 +1,51 @@
+raspberry pi scale
+
+http://jamesralexander.com/blog/content/measuring-coffee-with-raspberry-pi-a-usb-scale-and-python/
+http://blog.initialstate.com/quantified-coffee-machine/
+
+51-usb-scale.rules 
+    SUBSYSTEM=="usb", ATTR{idVendor}=="0922", ATTR{idProduct}=="8003", MODE="0776" SYMLINK="dymo_scale"
+
+https://learn.adafruit.com/digital-shipping-scales/smaller-scale-0-10-lb
+
+https://learn.adafruit.com/smart-cocktail-shaker/hardware
+
+http://www.sunspot.co.uk/Projects/Raspi/raspi-scale.html
+
+http://juluribk.com/2015/04/11/hacking-weighing-scale-to-upload-weight-to-plotly-using-raspberry-pi/
+
+https://www.sparkfun.com/products/10245
+https://learn.sparkfun.com/tutorials/getting-started-with-load-cells?_ga=1.25824189.1645051700.1457053193
+http://www.nerdkits.com/videos/weighscale/
+
+
+arduino board
+http://www.dfrobot.com/index.php?route=product/product&product_id=838#.Vt9PLOZa0sk
+http://www.dfrobot.com/index.php?route=product/product&product_id=1031#.Vt9OGOZa0sk
+
+---
+shopping list
+
+DYMO M10 digital postal scale (10-pound) with USB,
+amazon $34.19: http://www.amazon.com/DYMO-Digital-Shipping-10-pound-1772057/dp/B0053HCWRE/ref=sr_1_1
+
+Raspberry Pi 3, 
+MCM $35: http://www.mcmelectronics.com/product/83-17300
+Adafruit $39.95: https://www.adafruit.com/products/3055
+
+Mini Thermal Printer, 
+adafruit $49.95: https://www.adafruit.com/products/597
+
+5V 10A switching power supply, 
+adafruit $25: https://www.adafruit.com/products/658
+
+Panel Mount 2.1mm DC barrel jack,
+adafruit $2.95: https://www.adafruit.com/products/610
+
+Button,
+adafruit $4.95: https://www.adafruit.com/products/558
+or pretty much anything here would work if we want something different: https://www.adafruit.com/categories/235
+
+4GB SD card,
+Amazon $5.45: http://www.amazon.com/Sandisk-MicroSDHC-Memory-Card-Adapter/dp/B000SMVQK8/
+adafruit $9.95: https://www.adafruit.com/products/1121
